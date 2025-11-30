@@ -1,14 +1,17 @@
 [package]
-name = "ronfmt"
-version = "0.2.0"
-authors = ["Anton Filippov <a.filippov@protonmail.com>"]
+name = "fmtron"
+version = "0.3.0"
+authors = [
+    "Anton Filippov <a.filippov@protonmail.com>",
+    "Rafael Bachmann <rafael.bachmann.93@gmail.com",
+]
 description = "A simple tool for autoformatting RON files."
 homepage = "https://github.com/Ristarg/ronfmt"
 readme = "README.md"
 keywords = ["RON", "autoformatting", "beautify", "pretty-print"]
 categories = ["command-line-utilities", "development-tools", "value-formatting"]
 license = "MIT"
-repository = "https://github.com/barafael/ronfmt"
+repository = "https://github.com/barafael/fmtron"
 edition = "2024"
 
 [dependencies]

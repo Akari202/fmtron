@@ -1,4 +1,4 @@
-# ronfmt - simple autoformatting tool for RON
+# fmtron - simple autoformatting tool for RON
 
 # Important note:
 The tool is in prealpha state. Bugs may occur, leading to loss of data. The tool creates automatic backups of files it works on, but take precautions when using it.
@@ -6,10 +6,10 @@ The tool is in prealpha state. Bugs may occur, leading to loss of data. The tool
 
 ## How to install
 (requires nightly rustc)
-`cargo install ronfmt`
+`cargo install fmtron`
 
 ## How to use
-`ronfmt file_to_format.ron`
+`fmtron file_to_format.ron`
 
 - On use, the tool will create a backup file called `<source_file_name>.bak` in the same directory. Only the latest backup is kept. Add `*.bak` to your `.gitignore` if you would like to keep your repo clean.
 - Use `-d` flag to write the formatted output to the terminal instead of overwriting the source file

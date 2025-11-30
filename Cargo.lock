@@ -149,6 +149,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "48c757948c5ede0e46177b7add2e67155f70e33c07fea8284df6576da70b3719"
 
 [[package]]
+name = "fmtron"
+version = "0.3.0"
+dependencies = [
+ "clap",
+ "itertools",
+ "pest",
+ "pest_derive",
+]
+
+[[package]]
 name = "generic-array"
 version = "0.14.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -256,16 +266,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a338cc41d27e6cc6dce6cefc13a0729dfbb81c262b1f519331575dd80ef3067f"
 dependencies = [
  "proc-macro2",
-]
-
-[[package]]
-name = "ronfmt"
-version = "0.2.0"
-dependencies = [
- "clap",
- "itertools",
- "pest",
- "pest_derive",
 ]
 
 [[package]]
